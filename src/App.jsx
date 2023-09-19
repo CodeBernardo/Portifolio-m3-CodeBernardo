@@ -1,6 +1,7 @@
 import { PageTemplate } from './components/defaultTemplate/index';
 import { AboutSection } from './components/mainContent/aboutSection';
 import { BannerSection } from './components/mainContent/bannerSection';
+import { TechsSection } from './components/mainContent/techSection';
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
       <PageTemplate>
         <BannerSection />
         <AboutSection />
+        <TechsSection />
       </PageTemplate>
     </>
   )
