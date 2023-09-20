@@ -5,8 +5,11 @@ export const TechsSection = () => {
   return (
 
     <section>
+      <h2>Tecnologias</h2>
       <ul>
-          <TechCard />
+        {technologies.map(({name, img}, index) => {
+          return <TechCard key={index} name={name} img={img} />
+        })}
       </ul>
     </section>
     
