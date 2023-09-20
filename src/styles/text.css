@@ -16,17 +16,17 @@
 
 .label {
   font-size: var(--fontSize-4);
-  font-weight: var(--fontWeight-2);
+  font-weight: var(--fontWeight-3);
 }
 
 .link {
   font-size: var(--fontSize-5);
-  font-weight: var(--fontWeight-1);
+  font-weight: var(--fontWeight-2);
 }
 
 .text-1 {
-  font-size: var(--fontSize-5);
-  font-weight: var(--fontWeight-2);
+  font-size: var(--fontSize-4);
+  font-weight: var(--fontWeight-3);
 }
 
 * {

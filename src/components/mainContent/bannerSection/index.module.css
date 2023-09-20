@@ -1,0 +1,33 @@
+.banner__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  padding: 0 1.5rem;
+  margin: 1.25rem 0;
+}
+
+.banner__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+} 
+
+.banner__container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.875rem;
+  max-width: 100%;
+}
+
+.username {
+  color: var(--brand-1);
+}
+
+.banner__image {
+  max-width: 100%;
+}
+
+.banner__button {
+  align-self: flex-start;
+}

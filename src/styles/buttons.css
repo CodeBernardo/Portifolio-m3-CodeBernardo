@@ -4,6 +4,8 @@ button {
   height: 2.2rem;
   padding: 0 30px;
   border-radius: var(--radious-1);
+  font-size: var(--fontSize-5);
+  font-weight: var(--fontWeight-2);
 }
 
 button:hover {
