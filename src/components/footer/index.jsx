@@ -1,18 +1,22 @@
 import { user } from "../../data/user"
-import "../../styles/text.css"
+import image1 from "../../assets/whatsapp-icon.png";
+import image2 from "../../assets/linkedin-icon.png";
+import image3 from "../../assets/github-icon.png";
 
 export const Footer = () => {
   return (
     <>
-      <div>
-        <h2>Contato</h2>
+      <footer>
         <div>
-          <img src='../../src/assets/whatsapp-icon.png' alt="whatsapp icon" />
-          <img src="../../src/assets/linkedin-icon.png" alt="likedin icon" />
-          <img src="../../src/assets/github-icon.png" alt="gitHub icon" />
+          <h2>Contato</h2>
+          <div>
+            <img src={image1} alt="whatsapp icon" />
+            <img src={image2} alt="likedin icon" />
+            <img src={image3} alt="gitHub icon" />
+          </div>
         </div>
-      </div>
-      <p>Todos os direitos reservados - {user}</p>
+        <p>Todos os direitos reservados - {user}</p>
+      </footer>
     </>
   )
 }
