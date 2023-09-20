@@ -1,4 +1,5 @@
 import { user } from "../../data/user"
+import "../../styles/text.css"
 
 export const Footer = () => {
   return (

@@ -1,3 +1,4 @@
+import "../../styles/text.css"
 import styles from "./index.module.css"
 
 export const Header = () => {
