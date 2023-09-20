@@ -1,0 +1,11 @@
+button {
+  background-color: var(--brand-1);
+  color: var(--white-fixed);
+  height: 2.2rem;
+  padding: 0 30px;
+  border-radius: var(--radious-1);
+}
+
+button:hover {
+  background-color: var(--brand-1-hover);
+}
