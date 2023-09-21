@@ -1,0 +1,24 @@
+.footer {
+  padding: 0 1.8rem;
+  max-width: 100%;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5rem 0;
+  gap: 35px;
+}
+
+.footer__container > p {
+  line-height: 1.8rem;
+}
+
+.icons__container {
+  display: flex;
+  gap: 1.25rem;
+}

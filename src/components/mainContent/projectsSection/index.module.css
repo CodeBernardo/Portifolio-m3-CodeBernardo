@@ -1,0 +1,16 @@
+.projects__section {
+  padding: 0 2rem;
+  max-width: 1320px;
+  margin: 0 auto;
+  margin-bottom: 1.875rem;
+}
+
+.projects__section > h2 {
+  margin-bottom: 2rem;
+}
+
+.projects__section > ul{
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}

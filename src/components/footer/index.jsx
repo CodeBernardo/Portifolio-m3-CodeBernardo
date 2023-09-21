@@ -7,16 +7,18 @@ import styles from "./index.module.css"
 export const Footer = () => {
   return (
     <>
-      <footer>
-        <div>
-          <h2>Contato</h2>
-          <div>
-            <img src={image1} alt="whatsapp icon" />
-            <img src={image2} alt="likedin icon" />
-            <img src={image3} alt="gitHub icon" />
-          </div>
+      <footer className={styles.footer}>
+      <hr />
+        <div className={styles.footer__container}>
+            <h2 className="title-2">Contato</h2>
+            <div className={styles.icons__container}>
+              <img src={image1} alt="whatsapp icon" />
+              <img src={image2} alt="likedin icon" />
+              <img src={image3} alt="gitHub icon" />
+            </div>
+          <p>Todos os direitos reservados - {user}</p>
         </div>
-        <p>Todos os direitos reservados - {user}</p>
+      <hr />
       </footer>
     </>
   )
