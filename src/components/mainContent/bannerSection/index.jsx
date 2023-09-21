@@ -1,5 +1,6 @@
 import { username } from "../../../data/user"
 import styles from "./index.module.css"
+import banner from "../../../assets/banner-img.png"
 
 export const BannerSection = () => {
   return (
@@ -11,7 +12,7 @@ export const BannerSection = () => {
           <p className="text-1">“Superar é transformar obstáculos em degraus na escada do sucesso.”</p>
           <button className={styles.banner__button}>Saiba mais</button>
         </div>
-        <img src="../../../src/assets/banner-img.png" alt="banner image" className={styles.banner__image} />
+        <img src={banner} className={styles.banner__image} />
       </section>
     </>
   )
