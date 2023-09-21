@@ -1,0 +1,15 @@
+.techs__section {
+  padding: 0 2rem;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+.techs__section > h2 {
+  margin-bottom: 1.875rem;
+}
+
+.techs__section > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}

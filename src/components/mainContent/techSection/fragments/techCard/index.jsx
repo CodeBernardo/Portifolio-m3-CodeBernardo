@@ -1,8 +1,10 @@
+import styles from "./index.module.css"
+
 export const TechCard = ({name, img}) => {
   return (
-    <li>
+    <li className={styles.card__container}>
       <img src={img} alt={`${name} icon`} />
-      <p>{name}</p>
+      <h3 className="title-3">{name}</h3>
     </li>
   )
 }

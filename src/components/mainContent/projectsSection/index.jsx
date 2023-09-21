@@ -1,5 +1,6 @@
 import { projects } from "../../../data/projects"
 import { ProjectCard } from "./fragments"
+import styles from "./index.module.css"
 
 export const ProjectsSection = () => {
   return (

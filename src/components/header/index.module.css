@@ -3,8 +3,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1.5rem 0;
-  max-width: 100vw;
+  padding: 0 2rem;
+  max-width: 1320px;
+  margin: 1.875rem auto;
 }
 
 .app__header > nav {

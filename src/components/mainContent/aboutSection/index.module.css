@@ -1,0 +1,14 @@
+.about__section {
+  padding: 0 2rem;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+.about__section > h2 {
+  margin-bottom: 1.875rem ;
+}
+
+.about__section > p{
+  line-height: 1.875rem ;
+  margin-bottom: 2rem;
+}
