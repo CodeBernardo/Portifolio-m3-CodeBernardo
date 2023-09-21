@@ -23,5 +23,8 @@
   --fontWeight-1: 800;
   --fontWeight-2: 600;
   --fontWeight-3: 400;
+
+  /* max-width */
+  --width-default: 880px;
 } 
 

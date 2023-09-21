@@ -20,3 +20,19 @@
   right: 1.2rem;
   top: 1.2rem;
 }
+
+.card__container > a {
+  color: var(--brand-1);
+}
+
+@media (min-width: 768px) {
+  .card__container {
+    min-width: 17.625rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card__container {
+    min-width: 23.125rem;
+  }
+}

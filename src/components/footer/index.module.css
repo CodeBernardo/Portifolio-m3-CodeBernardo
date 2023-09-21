@@ -1,8 +1,9 @@
 .footer {
-  padding: 0 1.8rem;
-  max-width: 100%;
-  margin-bottom: 30px;
+  padding: 0 2rem;
+  max-width: var(--width-default);
+  margin-bottom: 1.8rem;
   text-align: center;
+  margin: 0 auto;
 }
 
 .footer__container {
@@ -11,14 +12,37 @@
   align-items: center;
   justify-content: center;
   padding: 2.5rem 0;
-  gap: 35px;
+  gap: 2rem;
 }
 
 .footer__container > p {
   line-height: 1.8rem;
 }
 
+.icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
 .icons__container {
   display: flex;
   gap: 1.25rem;
+}
+
+@media (min-width:768px){
+  .footer__container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .icons {
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .icons__container {
+    align-self: flex-start;
+  }
 }

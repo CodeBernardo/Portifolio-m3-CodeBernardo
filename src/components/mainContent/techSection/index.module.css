@@ -1,11 +1,11 @@
 .techs__section {
   padding: 0 2rem;
-  max-width: 1320px;
-  margin: 2.5rem auto;
+  max-width: var(--width-default);
+  margin: 3rem auto;
 }
 
 .techs__section > h2 {
-  margin-bottom: 1.875rem;
+  margin-bottom: 3rem;
 }
 
 .techs__section > ul {
@@ -13,3 +13,12 @@
   flex-direction: column;
   gap: 1.25rem;
 }
+
+@media (min-width: 768px) {
+  .techs__section > ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+  }
+}
+

@@ -1,6 +1,6 @@
 .about__section {
   padding: 0 2rem;
-  max-width: 1320px;
+  max-width: var(--width-default);
   margin: 0 auto;
 }
 
@@ -11,4 +11,16 @@
 .about__section > p{
   line-height: 1.875rem ;
   margin-bottom: 2rem;
+}
+
+@media (min-width: 1024px) {
+  .about__section {
+    display: flex;
+    gap: 5rem;
+  }
+
+  .about__section > h2 {
+    min-width: fit-content;
+  }
+
 }

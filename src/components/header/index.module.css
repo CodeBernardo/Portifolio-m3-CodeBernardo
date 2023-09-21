@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   padding: 0 2rem;
-  max-width: 1320px;
+  max-width: var(--width-default);
   margin: 1.875rem auto;
 }
 
@@ -14,7 +14,8 @@
 }
 
 .header__logo {
-  max-width: 5rem;
+  width: 5rem;
+  align-self: center;
 }
 
 .nav__items {
@@ -30,4 +31,18 @@
 
 .contact__btn {
   align-self: center;
+}
+
+@media (min-width: 768px) {
+  .app__header > nav {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+} 
+
+@media (min-width: 1024px) {
+  .app__header {
+    margin-bottom: 3rem;
+  }
 }

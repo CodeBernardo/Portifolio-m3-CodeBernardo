@@ -1,16 +1,24 @@
 .projects__section {
   padding: 0 2rem;
-  max-width: 1320px;
+  max-width: var(--width-default);
   margin: 0 auto;
   margin-bottom: 1.875rem;
 }
 
 .projects__section > h2 {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .projects__section > ul{
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .projects__section > ul{
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+  }
 }

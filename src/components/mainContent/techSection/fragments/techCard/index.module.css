@@ -8,3 +8,15 @@
   border: 1px solid var(--grey-2);
   border-radius: var(--radious-2);
 }
+
+@media (min-width: 768px) {
+  .card__container {
+    min-width: 17.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card__container {
+    min-width: 13rem;
+  }
+}
