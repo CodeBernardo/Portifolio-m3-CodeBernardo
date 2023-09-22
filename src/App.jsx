@@ -5,7 +5,7 @@ import { ProjectsSection } from './components/mainContent/projectsSection';
 import { TechsSection } from './components/mainContent/techSection';
 import './styles/index.css';
 
-function App() {
+const App = () => {
   return (
     <>
       <PageTemplate>
