@@ -1,16 +1,12 @@
-import { Footer } from "../footer"
-import { Header } from "../header"
+import { Footer } from '../footer';
+import { Header } from '../header';
 
-export const PageTemplate = ({children}) => {
+export const PageTemplate = ({ children }) => {
   return (
     <>
       <Header />
-      <main>
-        {children}
-      </main>
+      <main>{children}</main>
       <Footer />
     </>
-  )
-}
-
-
+  );
+};
